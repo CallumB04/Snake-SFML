@@ -24,8 +24,6 @@ private:
 	sf::RectangleShape food;
 	sf::RectangleShape head;
 
-	sf::Texture headTexture;
-
 	// random position for the food
 	int foodx;
 	int foody;
@@ -47,7 +45,6 @@ private:
 
 	void initWindow();
 	void initShapes();
-	void initTextures();
 	void initFood();
 	void initSnake();
 	void initHead();
