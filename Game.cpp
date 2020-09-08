@@ -32,11 +32,6 @@ void Game::initShapes()
 
 }
 
-void Game::initTextures()
-{
-	headTexture.loadFromFile("snake.png");
-}
-
 void Game::initFood()
 {
 	// random position for the food
@@ -55,7 +50,6 @@ void Game::initSnake()
 
 void Game::initHead()
 {
-	head.setTexture					(&headTexture);
 	head.setSize					(sf::Vector2f(gridBoxWidth - 2.0f, gridBoxHeight - 2.0f));
 	head.setPosition				(s[0].x, s[0].y);
 }
@@ -69,7 +63,6 @@ Game::Game()
 	this->initFood();
 	this->initSnake();
 	this->initHead();
-	this->initTextures();
 }
 
 Game::~Game()
