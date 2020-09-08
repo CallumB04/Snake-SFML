@@ -7,5 +7,5 @@ int main() {
 	game.run();
 
 	system("PAUSE");
-	return EXIT_SUCCESS;
+	return 0;
 }
