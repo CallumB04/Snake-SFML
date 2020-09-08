@@ -5,7 +5,7 @@
 void Game::initWindow()
 {
 	// creating the window
-	this->window = new sf::RenderWindow(sf::VideoMode(600, 600), "Snake Game", sf::Style::Close);
+	this->window = new sf::RenderWindow(sf::VideoMode(600, 600), "Snake-SFML", sf::Style::Close);
 
 	// sets the frames per second of the window
 	this->window->setFramerateLimit(10);
