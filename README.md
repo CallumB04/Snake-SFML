@@ -1,3 +1,3 @@
 # Snake-SFML
 
-This is an old C++ SFML Project I created and i'm using it as a test for my Github.
+An OpenGL based 2D snake game using the C++ SFMl library
