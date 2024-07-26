@@ -1,3 +1,3 @@
 # Snake-SFML
 
-An 2D snake game using the C++ SFML library
+A 2D snake game created using the C++ SFML library
